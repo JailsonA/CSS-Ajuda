@@ -58,3 +58,20 @@ ou
 
 - text-align: center;
 - line-height: 200px;
+#
+
+## mover conteudo e divs 
+
+Movendo os divs e conteudos em HORIZONTAL VERTICAL 
+
+
+
+![preview](./img/transtranslate.png)
+
+## Horizontal
+
+- transform: translate(200px, 0);
+
+## Vertical
+
+- transform: translate(0, 120px);

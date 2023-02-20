@@ -145,3 +145,21 @@ precisa de um text align para outros conteudos sem width.
 */
 
 
+
+.transformTranslate1{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(127, 223, 255);
+}
+
+.transformTranslate2{
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(219, 127, 255);
+    transform: translate(200px, 0);
+}
+
+.transformTranslate2 p {
+    transform: translate(0px, 120px);
+}
