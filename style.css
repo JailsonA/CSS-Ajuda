@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box; 
 }
+
+
 /***********************************************/
 /* ***** <= alinhar itens no HORIZONTAL =>  ****/
 /***********************************************/
@@ -141,3 +143,5 @@ precisa de um text align para outros conteudos sem width.
        justify-content: center;
  usar esses dois para alinar todo o conteudo e divs ao centro 
 */
+
+
