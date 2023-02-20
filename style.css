@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+/***********************************************/
+/* ***** <= alinhar itens no HORIZONTAL =>  ****/
+/***********************************************/
+.divH1{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.divH2{
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+    display: grid;
+    justify-content: center;
+}
+
+.divH3{
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    text-align: center;
+}
+/* NOTA:
+1 =>  'text-align: center;' alinha na horizontal os elenetos sem o tamanho difinido assumindo 
+width do pai;
+
+2 => 'display: flex; && justify-content: center;' alinha na horizontal os divs e todo o 
+elemento sem o width definido assumindo tamanho do width do pai
+
+3 =>  'display: grid; justify-content: center;' alinha os divs mas nao alinha os conteudos 
+precisa de um text align para outros conteudos sem width
+
+##### Caso queira alinhar do pai para todos os filhos 
+       margin: 0 auto; 
+       text-align: center;  
+ usar esses dois para alinar todo o conteudo e divs ao centro 
+*/
+
+
+/***********************************************/
+/*******  <= alinhar itens no VERTICAL =>   ****/
+/***********************************************/
+
+
+.divV1{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.divV2{
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+    display: grid;
+    align-items: center;
+}
+
+.divV3{
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    line-height: 200px;
+}
+
+/* NOTA:
+1 =>  'line-height: 200px;' alinha na Vertical os elenetos sem o tamanho difinido assumindo height do pai 
+nao alinha divs so os conteudo sem width.
+
+2 => 'display: flex; && align-items: center;' alinha na VERTICAL os divs e todo o elemento sem o height 
+definido assumindo tamanho do height do pai caso contrario ele alinha filho do pai nao nao o seu conteudo.
+
+3 =>  'display: grid; align-items: center' alinha os divs mas nao alinha os conteudos precisa de um 
+text align para outros conteudos sem width.
+
+##### Caso queira alinhar do pai para todos os filhos 
+       margin: auto  0; 
+       align-items: center;  
+ usar esses dois para alinar todo o conteudo e divs ao centro 
+*/
+
+
+/************************************************************/
+/*******  <= alinhar itens ao CENTRO no HORIZONTAL & VERTICAL =>   ****/
+/************************************************************/
+
+.divHV1{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.divHV2{
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.divHV3{
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    text-align: center;
+    line-height: 200px;
+}
+
+/* NOTA:
+1 =>  'line-height: 200px; && text-align: center;' alinha na HORIZONTAL e Vertical os 
+elementos sem o tamanho difinido assumindo o width e o height do pai nao alinha divs 
+so os conteudo sem width e height.
+
+2 => 'display: flex; && justify-content: center; && align-items: center;' alinha na 
+HORIZONTAL e VERTICAL os divs e todo o elemento sem o height e width definido assumindo 
+tamanho do height do pai caso contrario ele alinha filho do pai nao o seu conteudo.
+
+3 =>  'display: grid; align-items: center' alinha os divs mas nao alinha os conteudos 
+precisa de um text align para outros conteudos sem width.
+
+##### Caso queira alinhar do pai para todos os filhos 
+       margin: auto; 
+       align-items: center; 
+       justify-content: center;
+ usar esses dois para alinar todo o conteudo e divs ao centro 
+*/
